@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jyamanouchi.golfscorebasic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_scorecard"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_scorecard_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ParActivity"
+            android:label="@string/Update_Par"
+            android:parentActivityName=".ScoreActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jyamanouchi.golfscorebasic.ScoreActivity" />
+        </activity>
+        <activity android:name=".PlayersActivity"
+            android:label="@string/Update_Players"
+            android:parentActivityName=".ScoreActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jyamanouchi.golfscorebasic.ScoreActivity" />
+        </activity>
+        <activity android:name=".UpdateActivity"
+            android:label="@string/Update_score"
+            android:parentActivityName=".ScoreActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jyamanouchi.golfscorebasic.ScoreActivity" />
+        </activity>
+        <activity android:name=".ScoreActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
