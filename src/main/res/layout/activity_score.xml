@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jyamanouchi.golfscorebasic.ScoreActivity">
+
+    <TextView
+        android:id="@+id/tv_hole_label"
+        android:layout_width="@dimen/label_width"
+        android:layout_height="wrap_content"
+        android:text="@string/hole_label"
+        android:textSize="@dimen/label_size"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_par_label"
+        android:layout_width="@dimen/label_width"
+        android:layout_height="wrap_content"
+        android:text="@string/par_label"
+        android:textSize="@dimen/label_size"
+        android:layout_marginLeft="@dimen/margin_default"
+        app:layout_constraintLeft_toRightOf="@id/tv_hole_label"
+        app:layout_constraintTop_toTopOf="@id/tv_hole_label"
+         />
+
+    <TextView
+        android:id="@+id/tv_player1_label"
+        android:text="@string/player1_label"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_size"
+		app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintLeft_toRightOf="@id/tv_par_label"
+        app:layout_constraintTop_toTopOf="@id/tv_par_label" />
+
+    <TextView
+        android:id="@+id/tv_player2_label"
+        android:text="@string/player2_label"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_size"
+        app:layout_constraintLeft_toRightOf="@id/tv_player1_label"
+        app:layout_constraintTop_toTopOf="@id/tv_player1_label" />
+
+    <TextView
+        android:id="@+id/tv_player3_label"
+        android:text="@string/player3_label"
+        android:textSize="@dimen/label_size"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/tv_player2_label"
+        app:layout_constraintTop_toTopOf="@id/tv_player2_label" />
+
+    <TextView
+        android:id="@+id/tv_player4_label"
+        android:text="@string/player4_label"
+        android:textSize="@dimen/label_size"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/tv_player3_label"
+        app:layout_constraintTop_toTopOf="@id/tv_player3_label" />
+
+    <TextView
+        android:id="@+id/tv_total_score1"
+        android:text="@string/total"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/tv_player1_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_player1_label" />
+
+    <TextView
+        android:id="@+id/tv_total_score2"
+        android:text="@string/total"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/tv_player2_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_player2_label" />
+
+    <TextView
+        android:id="@+id/tv_total_score3"
+        android:text="@string/total"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/tv_player3_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_player3_label" />
+
+    <TextView
+        android:id="@+id/tv_total_score4"
+        android:text="@string/total"
+        android:layout_width="@dimen/player_width"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/tv_player4_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_player4_label" />
+
+    <android.support.v7.widget.RecyclerView
+		android:id="@+id/rv_scores"
+        app:layout_constraintLeft_toLeftOf="@id/tv_hole_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_total_score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:paddingBottom="100dp"/>
+
+</android.support.constraint.ConstraintLayout>

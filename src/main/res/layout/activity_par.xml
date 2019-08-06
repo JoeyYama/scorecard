@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_hole_label"
+        android:layout_width="@dimen/label_width"
+        android:layout_height="wrap_content"
+        android:text="@string/hole_label"
+        android:textSize="@dimen/label_size"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginLeft="@dimen/par_margin_left"
+        android:layout_marginTop="@dimen/margin_default"
+         />
+
+    <TextView
+        android:id="@+id/tv_par_label"
+        android:layout_width="@dimen/label_width"
+        android:layout_height="wrap_content"
+        android:text="@string/par_label"
+        android:textSize="@dimen/label_size"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_par"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="100dp" />
+
+    <Button
+        android:id="@+id/btn_Manual"
+        android:text="Submit"
+        android:textSize="@dimen/text_size"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GolfScore</string>
+    <string name="hole_label">Hole</string>
+    <string name="par_label">Par</string>
+    <string name="player1_label">Pl. 1</string>
+    <string name="player2_label">Pl. 2</string>
+    <string name="player3_label">Pl. 3</string>
+    <string name="player4_label">Pl. 4</string>
+    <string name="update_button">Update</string>
+    <string name="total_score">0</string>
+    <string name="hint_score1">Player 1 Score</string>
+    <string name="hint_score2">Player 2 Score</string>
+    <string name="hint_score3">Player 3 Score</string>
+    <string name="hint_score4">Player 4 Score</string>
+    <string name="button_save">Save</string>
+    <string name="unable_to_update">unable to update</string>
+    <string name="transfer_error">there was a data transfer error</string>
+    <string name="empty_not_saved">cannot update empty score</string>
+    <string name="reset_score_toast_text">Score was reset</string>
+    <string name="reset_scores">Reset Scorecard</string>
+    <string name="total">Total</string>
+    <string name="players_label">Players Activity</string>
+    <string name="Update_score">Update Score</string>
+    <string name="tvHole">Hole</string>
+    <string name="tvPar">Par</string>
+    <string name="txtCourseFound">Nearest course found</string>
+    <string name="txtAccept">Use this Course</string>
+    <string name="txtLookUp">Look Up</string>
+    <string name="Update_Par">Update Par</string>
+    <string name="Update_Players">Update Players</string>
+    <string name="msgError">Error</string>
+</resources>

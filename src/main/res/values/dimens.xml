@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_margin_bottom">20dp</dimen>
+    <dimen name="btn_margin_top">20dp</dimen>
+
+    <dimen name="label_width">40dp</dimen>
+    <dimen name="label_size">18sp</dimen>
+
+    <dimen name="player_width">50dp</dimen>
+
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="offset">15dp</dimen>
+
+    <dimen name="detail_size">20sp</dimen>
+    <dimen name="detail_width">50dp</dimen>
+
+    <dimen name="par_label_width">100dp</dimen>
+
+    <dimen name="text_size">24sp</dimen>
+
+    <dimen name="margin_top">50dp</dimen>
+    <dimen name="recyclerview_height">300dp</dimen>
+    <dimen name="btnBelowRV">350dp</dimen>
+    <dimen name="margin_bottom">20dp</dimen>
+    <dimen name="par_margin_left">50dp</dimen>
+</resources>
