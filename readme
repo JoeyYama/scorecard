@@ -1,7 +1,7 @@
-Android Studio Basic Golf Scorecard App
+# Android Studio Basic Golf Scorecard App
 
 
-How to Use the App
+## How to Use the App
 
 This was written to keep the scores of up to four golfers on a 18 hole golf course. 
 
@@ -17,7 +17,7 @@ To clear the scores, click on the ellipses and click Reset Scorecard. The app wi
 zero and take you back to the original scorecard.
 
 
-General Design of the App
+## General Design of the App
 
 This app contains two Entities (ScoreEntity and ParEntity). Tables
 
@@ -37,7 +37,7 @@ The Player's initials are stored in SharedPreferences.
 The ParActivity is used to modify the par for each hole. It has its own RecyclerView and Adapter.
 
 
-Next Step?
+## Next Step?
 
 Add Handicap and calculate the net score
 Scotch game?
